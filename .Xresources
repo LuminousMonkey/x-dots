@@ -148,7 +148,6 @@ gnuplot*line7Color:   #d5bd97
 gnuplot*line8Color:   #a681ba
 
 xscreensaver.lock: True
-xscreensaver.programs: xmatrix -root -no-trace -no-knock-knock
 ! Resources for the password and splash-screen dialog boxes of
 ! the "xscreensaver" daemon.
 
