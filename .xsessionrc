@@ -1,5 +1,6 @@
 xmodmap ~/.Xmodmap
 stalonetray &
+xsetroot -cursor_name left_ptr &
 feh --bg-tile --randomize ~/Pictures/Wallpapers/* &
 xscreensaver -nosplash &
 dropbox start &
