@@ -1,6 +1,7 @@
 xmodmap ~/.Xmodmap
 stalonetray &
 feh --bg-tile --randomize ~/Pictures/Wallpapers/* &
+xsetroot -cursor_name left_ptr &
 xscreensaver -nosplash &
 dropbox start &
 wmname LG3D
