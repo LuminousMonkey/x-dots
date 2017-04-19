@@ -1,12 +1,12 @@
 /*
 ** Xft config
 */
-Xft.dpi:       96
+! Xft.dpi:       96
 Xft.antialias: 1
 Xft.autohint:  0
 Xft.rgba:      rgb
 Xft.hinting:   1
-Xft.hintstyle: hintfull
+Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
 ! Fix backspace key in terminal
@@ -177,3 +177,31 @@ xscreensaver.Dialog.shadowThickness:    2
 xscreensaver.passwd.thermometer.foreground:  #666666
 xscreensaver.passwd.thermometer.background:  #000000
 xscreensaver.passwd.thermometer.width:       8
+
+! --- xmessage {{{1
+! -----------------------------------------------------------------------------
+xmessage*form.okay.shapeStyle: rectangle
+xmessage*form.okay.background: IndianRed
+xmessage*form.okay.foreground: rgb:e/b/b
+xmessage*message*background: ivory3
+xmessage*background: gray85
+xmessage*foreground: gray15
+xmessage*Scrollbar.width: 10
+xmessage*Scrollbar.borderWidth: 1
+xmessage*Text.?.cursorColor: rgb:d/5/5
+xmessage*Text.borderColor: gray65
+xmessage*Text*background: gray95
+xmessage*Command.highlightThickness: 1
+xmessage*Command.internalWidth: 5
+xmessage*Command.internalHeight: 3
+xmessage*Command.borderColor: gray40
+xmessage*Command.shapeStyle: Rectangle
+xmessage*Command.background: gray80
+xmessage*faceName: DejaVuSansMono
+xmessage*faceSize: 12
+xmessage*message.scrollVertical: Always
+xmessage*message.scrollHorizontal: Never
+! add keyboard shortcuts to easily quit program
+xmessage*baseTranslations:#augment\
+        <Key>Return:exit()\n\
+        <Key>space:exit()
